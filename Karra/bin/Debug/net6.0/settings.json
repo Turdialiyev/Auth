@@ -1,0 +1,10 @@
+{
+    "ConnectionString":{
+        "SQL": "SqlConnectionString",
+        "VAT": "0.002"
+    },
+    "User":{
+        "Name": "Asilbek",
+        "UserName": "Adi"
+    }
+}

@@ -1,0 +1,13 @@
+﻿@model SonViewModel
+<h1>Sonni so'zlar bilan ifodalash</h1><br>
+
+<form method="post" asp-controller="Home" asp-action="SonKiritish">
+  <div class="mb-3">
+    <label for="exampleInputnum1" class="form-label">Son kiriting</label>
+    <input asp-for="Number" type="text" id="exampleInputnum1" aria-describedby="sonHelp">
+    <div id="sonHelp" class="form-text">"Submit" ni bosganingizdan so'ng kiritgan soningiz so'zlarda ifodalanadi</div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br>
+<h2>@ViewBag.x</h2>
